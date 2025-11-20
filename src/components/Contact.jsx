@@ -18,6 +18,7 @@ export function Contact() {
       </div>
 
       <div className="flex flex-col items-center gap-6">
+        {/* EMAIL */}
         <a
           href="mailto:Contato.igorrodriguesdasilva@gmail.com"
           className="px-8 py-3 bg-green-600 hover:bg-green-700 transition rounded-full font-semibold shadow-lg hover:scale-105"
@@ -25,6 +26,7 @@ export function Contact() {
           Mande um Email
         </a>
 
+        {/* WHATSAPP */}
         <a
           href="https://wa.me/5548998596831?text=Olá%20Igor%20queria%20falar%20com%20você"
           className="px-8 py-3 bg-green-600 hover:bg-green-700 transition rounded-full font-semibold shadow-lg hover:scale-105"
@@ -32,6 +34,24 @@ export function Contact() {
           rel="noopener noreferrer"
         >
           Mande um WhatsApp
+        </a>
+
+        {/* BAIXAR CURRÍCULO */}
+        <a
+          href="/curriculo.pdf"
+          download
+          className="px-8 py-3 bg-green-600 hover:bg-green-700 transition rounded-full font-semibold shadow-lg hover:scale-105"
+        >
+          Baixar meu Currículo
+        </a>
+
+        {/* BAIXAR CURRÍCULO ALTERNATIVO */}
+        <a
+          href="/curriculo-igorrodriguesdasilva.pdf"
+          download
+          className="px-8 py-3 bg-green-600 hover:bg-green-700 transition rounded-full font-semibold shadow-lg hover:scale-105"
+        >
+          Baixar currículo-igorrodriguesdasilva
         </a>
       </div>
     </section>
