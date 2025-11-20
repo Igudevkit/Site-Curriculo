@@ -18,6 +18,7 @@ export function Contact() {
       </div>
 
       <div className="flex flex-col items-center gap-6">
+
         {/* EMAIL */}
         <a
           href="mailto:Contato.igorrodriguesdasilva@gmail.com"
@@ -43,8 +44,9 @@ export function Contact() {
           className="px-8 py-3 bg-green-600 hover:bg-green-700 transition rounded-full font-semibold shadow-lg hover:scale-105"
         >
           Baixe meu Currículo
+        </a>
+
       </div>
     </section>
   );
 }
-
