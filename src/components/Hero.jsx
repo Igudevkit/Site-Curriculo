@@ -1,4 +1,4 @@
-import perfil from "./assets/perfil.jpg";
+import perfil from "../assets/perfil.jpg";
 
 export function Hero() {
   return (
@@ -52,4 +52,5 @@ export function Hero() {
     </section>
   );
 }
+
 
