@@ -1,3 +1,5 @@
+import perfil from "./assets/perfil.jpg";
+
 export function Hero() {
   return (
     <section className="h-screen flex flex-col justify-center items-center text-center px-10 space-y-8">
@@ -17,10 +19,9 @@ export function Hero() {
 
         {/* Imagem */}
         <img
-          src="src\assets\perfil.jpg" // <-- TROQUE POR SUA FOTO
-          alt="Foto do Igor"
-          className="w-48 h-48 object-cover rounded-full relative z-10 shadow-xl 
-                     group-hover:scale-105 transition duration-500"
+        src={perfil}
+        alt="Foto do Igor"
+        className="w-48 h-48 object-cover rounded-full relative z-10 shadow-xl transition duration-500"
         />
       </div>
 
@@ -51,3 +52,4 @@ export function Hero() {
     </section>
   );
 }
+
