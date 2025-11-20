@@ -38,22 +38,13 @@ export function Contact() {
 
         {/* BAIXAR CURRÍCULO */}
         <a
-          href="/curriculo.pdf"
-          download
-          className="px-8 py-3 bg-green-600 hover:bg-green-700 transition rounded-full font-semibold shadow-lg hover:scale-105"
-        >
-          Baixar meu Currículo
-        </a>
-
-        {/* BAIXAR CURRÍCULO ALTERNATIVO */}
-        <a
           href="/curriculo-igorrodriguesdasilva.pdf"
           download
           className="px-8 py-3 bg-green-600 hover:bg-green-700 transition rounded-full font-semibold shadow-lg hover:scale-105"
         >
-          Baixar currículo-igorrodriguesdasilva
-        </a>
+          Baixe meu Currículo
       </div>
     </section>
   );
 }
+
