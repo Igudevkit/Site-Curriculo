@@ -9,13 +9,17 @@ export function Background() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Roxo MUITO escuro + preto
   const gradient = {
     background: `
       radial-gradient(
-        circle at ${50 + scroll * 0.02}% ${50 + scroll * 0.015}%, 
-        rgba(30, 0, 60, 0.9),
-        rgba(3, 0, 8, 1)
+        circle at ${50 + scroll * 0.02}% ${50 + scroll * 0.015}%,
+        rgba(8, 20, 45, 0.80),   /* azul bem escuro (um pouco mais escuro) */
+        rgba(3, 8, 18, 0.97)     /* quase preto, mais fechado */
+      ),
+      radial-gradient(
+        circle at ${40 - scroll * 0.015}% ${60 + scroll * 0.02}%,
+        rgba(15, 45, 95, 0.25),  /* brilho azul reduzido */
+        transparent
       )
     `,
   };

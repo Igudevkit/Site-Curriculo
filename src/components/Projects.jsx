@@ -24,7 +24,7 @@ export function Projects() {
 
   return (
     <section id="projects" className="py-16 px-6 max-w-6xl mx-auto">
-      <h2 className="text-4xl font-bold mb-6 text-pink-400">Projetos</h2>
+      <h2 className="text-4xl font-bold mb-6 text-[#567EBB]">Projetos</h2>
 
       <div className="grid md:grid-cols-3 gap-6">
         {proj.map((p) => (
@@ -33,12 +33,11 @@ export function Projects() {
             href={p.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-900 p-6 rounded-xl shadow-lg border border-purple-700 hover:border-purple-400 hover:scale-105 transition block"
+            className="bg-[#1F1F20] p-6 rounded-xl shadow-lg border border-[#2B4C7E] 
+                       hover:border-[#567EBB] hover:scale-105 transition block"
           >
-            <h3 className="text-2xl font-bold mb-2 text-purple-300">
-              {p.title}
-            </h3>
-            <p className="text-gray-400">{p.desc}</p>
+            <h3 className="text-2xl font-bold mb-2 text-white">{p.title}</h3>
+            <p className="text-[#DCE0E6]">{p.desc}</p>
           </a>
         ))}
       </div>
