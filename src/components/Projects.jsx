@@ -20,6 +20,11 @@ export function Projects() {
       desc: "Repositório que reúne projetos e experimentos usando Arduino, ESP e Raspberry",
       link: "https://github.com/Igudevkit/Arduinos",
     },
+    {
+      title: "Repositorio desta Pagina",
+      desc: "Repositório desta pagina caso queira copiar e fazer sua versão",
+      link: "https://github.com/Igudevkit/Site-Curriculo",
+    },
   ];
 
   return (
@@ -44,3 +49,4 @@ export function Projects() {
     </section>
   );
 }
+
