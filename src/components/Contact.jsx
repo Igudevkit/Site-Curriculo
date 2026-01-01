@@ -51,6 +51,30 @@ export function Contact() {
           Mande um WhatsApp
         </a>
 
+        {/* --- BOTÃO LINKEDIN --- */}
+        {/* Link para o Linkedin */}
+        <a
+          href="https://www.linkedin.com/in/igor-rodrigues-da-silva-2795a9381/"
+          className="px-8 py-3 bg-[#567EBB] hover:bg-[#2B4C7E] transition rounded-full 
+                     font-semibold shadow-lg hover:scale-105 text-white"
+          target="_blank" // Abre em nova aba
+          rel="noopener noreferrer" // Garante segurança para novos tabs
+        >
+          Acesse meu Linkedin
+        </a>
+
+        {/* --- BOTÃO GITHUB --- */}
+        {/* Link para o Github */}
+        <a
+          href="https://github.com/Igudevkit"
+          className="px-8 py-3 bg-[#567EBB] hover:bg-[#2B4C7E] transition rounded-full 
+                     font-semibold shadow-lg hover:scale-105 text-white"
+          target="_blank" // Abre em nova aba
+          rel="noopener noreferrer" // Garante segurança para novos tabs
+        >
+          Acesse meu Github
+        </a>
+
         {/* --- BOTÃO BAIXAR CURRÍCULO --- */}
         {/* Link para download direto do arquivo PDF do currículo */}
         <a
@@ -64,4 +88,5 @@ export function Contact() {
       </div>
     </section>
   );
+
 } // Fim do componente Contact
