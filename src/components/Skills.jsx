@@ -3,6 +3,11 @@ export function Skills() {
   // Cria um array chamado "skills" contendo objetos com nome e nível de cada habilidade
   const skills = [
     { name: "Inglês", level: "Básico" }, // Define a habilidade Inglês
+    { name: "Comunicação", level: "Intermediário" },
+    { name: "Ensinar", level: "Intermediário" },
+    { name: "Pacote Office", level: "Intermediário" }, // Define a habilidade com Office
+    { name: "Esquemas Elétricos", level: "Avançado" }, // Define a habilidade com esquemas elétricos
+    { name: "Prestar Suporte", level: "Avançado" },
     { name: "React", level: "Básico" }, // Define a habilidade React
     { name: "Tailwind", level: "Básico" }, // Define a habilidade Tailwind CSS
     { name: "HTML", level: "Avançado" }, // Define a habilidade HTML
@@ -13,10 +18,7 @@ export function Skills() {
     { name: "UI/UX Design", level: "Básico" }, // Define a habilidade de design UI/UX
     { name: "Vite", level: "Básico" }, // Define a habilidade com Vite
     { name: "Git", level: "Intermediário" }, // Define a habilidade Git
-    { name: "APIs REST", level: "Básico" }, // Define a habilidade com APIs REST
-    { name: "Pacote Office", level: "Intermediário" }, // Define a habilidade com Office
-    { name: "Excel", level: "Básico" }, // Define a habilidade Excel
-    { name: "Esquemas Elétricos", level: "Avançado" }, // Define a habilidade com esquemas elétricos
+    { name: "API", level: "Básico" }, // Define a habilidade com APIs REST
     { name: "Hardware IoT", level: "Intermediário" }, // Define a habilidade com IoT
     { name: "Criptografia", level: "Intermediário" }, // Define a habilidade em criptografia
     { name: "Redes", level: "Básico" }, // Define a habilidade em redes
@@ -52,4 +54,5 @@ export function Skills() {
       </div>
     </section>
   );
+
 }
