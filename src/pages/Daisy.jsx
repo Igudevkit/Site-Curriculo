@@ -2,7 +2,7 @@
 export default function Daisy() {
   return (
     <iframe
-      src="/Ferramentas_para_clientes/daisy.html"
+      src="../Ferramentas_para_clientes/Daisy.html"
       style={{ width: "100%", height: "100vh", border: "none" }}
     />
   );
